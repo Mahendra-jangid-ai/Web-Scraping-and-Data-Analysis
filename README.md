@@ -28,8 +28,6 @@ It allows users to fetch **real-time stock data**, visualize price trends, and v
 ---
 
 ## 📂 Project Structure
-## 📂 Project Structure (Table View)
-
 - **static/**
   - `app.js` → Frontend logic (API calls + chart rendering)
   - `style.css` → Styling
