@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stock Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Stock Dashboard</h1>
+
+        <form id="stockForm">
+            <label>Enter Stock Ticker (e.g., TCS.NS, INFY.NS):</label>
+            <input type="text" id="ticker" placeholder="TCS.NS" required>
+            <button type="submit">Fetch Data</button>
+        </form>
+
+        <section id="chartSection" hidden>
+            <h2>Price Trend (Close)</h2>
+            <canvas id="stockChart" width="600" height="300"></canvas>
+        </section>
+
+        <section id="summarySection" hidden>
+            <h2>Summary Analysis</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody id="summaryTable"></tbody>
+            </table>
+        </section>
+
+        <div id="error" class="error" hidden></div>
+    </main>
+    <script src="/static/app.js"></script>
+</body>
+
+</html>

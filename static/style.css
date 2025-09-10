@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 0;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-top: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: #f2f2f2;
+}
