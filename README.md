@@ -28,19 +28,19 @@ It allows users to fetch **real-time stock data**, visualize price trends, and v
 ---
 
 ## 📂 Project Structure
-WEB-SCRAPING-AND-DATA-ANALYSIS/
-│── static/
-│ ├── app.js # Frontend logic (API calls + chart rendering)
-│ ├── style.css # Styling
-│
-│── templates/
-│ ├── index.html # Main frontend page
-│
-│── app.py # Flask backend (routes + APIs)
-│── scraper.py # yFinance stock data functions
-│── requirements.txt # Python dependencies
-│── Procfile # For Render deployment (gunicorn)
-│── README.md # Documentation
+## 📂 Project Structure (Table View)
+
+- **static/**
+  - `app.js` → Frontend logic (API calls + chart rendering)
+  - `style.css` → Styling
+- **templates/**
+  - `index.html` → Main frontend page
+- **app.py** → Flask backend (routes + APIs)
+- **scraper.py** → yFinance stock data functions
+- **requirements.txt** → Python dependencies
+- **Procfile** → For Render deployment (gunicorn)
+- **README.md** → Documentation
+
 
 
 
